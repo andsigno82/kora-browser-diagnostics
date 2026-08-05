@@ -1,4 +1,5 @@
 node_modules/
+.wxt/
 .output/
 dist/
 coverage/
@@ -6,4 +7,3 @@ coverage/
 .env
 .env.*
 !.env.example
-

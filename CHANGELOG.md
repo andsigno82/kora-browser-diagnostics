@@ -4,6 +4,13 @@ All notable changes to Kora Browser Diagnostics are documented here.
 
 ## [Unreleased]
 
+## [0.1.2]
+
+### Fixed
+
+- Ignore generated WXT type output so a successful local verification leaves the
+  extension checkout clean.
+
 ## [0.1.1]
 
 ### Fixed
@@ -14,4 +21,3 @@ All notable changes to Kora Browser Diagnostics are documented here.
 ### Added
 
 - Public WXT extension foundation and Browser Diagnostics protocol v1 contract.
-
