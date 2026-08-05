@@ -2,8 +2,9 @@
   "extends": "./.wxt/tsconfig.json",
   "compilerOptions": {
     "strict": true,
-    "noEmit": true
+    "noEmit": true,
+    "moduleResolution": "bundler",
+    "skipLibCheck": true
   },
-  "include": ["entrypoints", "lib", "protocol", "wxt.config.ts"]
+  "include": ["entrypoints", "lib", "protocol", "wxt.config.ts", ".wxt/wxt.d.ts"]
 }
-
