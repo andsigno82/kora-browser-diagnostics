@@ -11,3 +11,7 @@ Kora Desktop 1.5.0 is the first supported desktop version. Additive changes may
 be made in protocol v1 when both participants negotiate an optional capability.
 Breaking changes require a new protocol version.
 
+The `prepare-diagnostics` schema describes the bounded payload sent after the
+user chooses a Kora destination. Project folder paths and bearer credentials are
+never part of this public payload.
+

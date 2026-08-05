@@ -4,6 +4,14 @@ All notable changes to Kora Browser Diagnostics are documented here.
 
 ## [Unreleased]
 
+## [0.2.0]
+
+### Added
+
+- Explicit active-tab capture foundation for runtime errors and unhandled promise
+  rejections, with a bounded in-memory browser buffer.
+- Public protocol v1 schema for a prepared diagnostic delivery.
+
 ## [0.1.2]
 
 ### Fixed

@@ -1,6 +1,6 @@
 {
   "name": "@kora/browser-diagnostics",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": false,
   "type": "module",
   "description": "Browser Diagnostics extension for Kora Desktop",

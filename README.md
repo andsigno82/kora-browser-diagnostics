@@ -8,9 +8,12 @@ Chromium-based browsers. It does not embed a browser in Kora.
 
 ## Status
 
-This repository contains the initial extension foundation. Browser capture,
-Kora pairing, and store distribution are not public features until Kora Desktop
-1.5 and the first signed extension release are announced.
+Version 0.2.0 implements an engineering vertical slice: explicit active-tab
+capture for page runtime errors and unhandled promise rejections, plus the
+protocol schema consumed by Kora's development bridge. It has no public popup,
+pairing, destination picker, or store release yet. Browser Diagnostics becomes
+a public feature only when Kora Desktop 1.5 and the first signed extension
+release are announced.
 
 ## Compatibility
 

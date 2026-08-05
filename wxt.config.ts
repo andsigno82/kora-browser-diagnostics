@@ -5,10 +5,9 @@ export default defineConfig({
     name: 'Kora Browser Diagnostics',
     description: 'Prepare selected browser diagnostics in Kora Desktop.',
     version: '0.1.0',
-    permissions: ['activeTab', 'storage'],
+    permissions: ['activeTab', 'storage', 'scripting'],
     action: {
       default_title: 'Kora Browser Diagnostics',
     },
   },
 })
-
